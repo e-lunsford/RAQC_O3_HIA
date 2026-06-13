@@ -50,8 +50,7 @@ library(units)
 # Load key-ring information to set AQS API credentials.
 # ------------------------------------------------------------------------------
 
-datamartAPI_user <- "elizabeth.lunsford@colostate.edu"
-server <- "AQSDatamart"
+
 
 aqs_credentials(username = datamartAPI_user, 
                 key = key_get(service = server,
