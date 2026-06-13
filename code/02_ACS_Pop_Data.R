@@ -80,9 +80,7 @@ DMNFR_pop_at_risk <- pop_at_risk %>%
 # Obtain ACS population data.
 #-------------------------------------------------------------------------------
 
-# Extract ACS 
-key = "47f2731165560967710bbed4138568c692bcb565"
-census_api_key(key = key, install = TRUE, overwrite = TRUE)
+
 # Load 2025 ACS5 variable list
 acs5_var_list <- load_variables(2024, "acs5", cache = TRUE)
 
